@@ -1,0 +1,31 @@
+{
+  "editor.wordWrapColumn": 120,
+  "editor.wordWrap":       "on",
+  
+  "files.insertFinalNewline": true,
+  
+  "terminal.integrated.cwd":                    "${fileDirname}",
+
+  "terminal.integrated.defaultProfile.windows": "Classroom",
+  "terminal.integrated.profiles.windows":       {
+    "Classroom": {
+      "path": [
+        "${env:windir}\\System32\\wsl.exe"
+      ],
+      "args": ["--exec", "/bin/bash"],
+      "icon": "terminal-ubuntu"
+    }
+  },
+
+  "terminal.integrated.defaultProfile.linux": "Classroom",
+  "terminal.integrated.profiles.linux": {
+    "Classroom": {
+      "path": "/bin/bash",
+      "icon": "terminal-ubuntu"
+    }
+  },
+  
+  "ruby.useLanguageServer": true,
+  "ruby.lint":              { "rubocop": true  },
+  "[ruby]":                 { "editor.tabSize": 2 }
+}
