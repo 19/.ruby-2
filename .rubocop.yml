@@ -6,9 +6,6 @@ Lint:                             { Enabled: true  }
 
 Layout:                           { Enabled: true  }
 
-Layout/LeadingEmptyLines:         { Enabled: false }
-Layout/TrailingEmptyLines:        { Enabled: false }
-Layout/TrailingWhitespace:        { Enabled: false }
 Layout/LineLength:                { Enabled: false }
 
 Style/AndOr:                      { Enabled: true  }
@@ -20,3 +17,7 @@ Style/MethodDefParentheses:       { Enabled: true  }
 Style/MultilineIfThen:            { Enabled: true  }
 Style/Not:                        { Enabled: true  }
 Style/ParenthesesAroundCondition: { Enabled: true  }
+
+Naming/MethodParameterName:       { Enabled: true  }
+Naming/VariableName:              { Enabled: true  }
+
